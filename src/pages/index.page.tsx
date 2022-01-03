@@ -1,4 +1,4 @@
-import PageStyle from '@src/pages/Page.style';
+import PageStyle from './Page.style';
 import { Card } from '@src/components';
 
 export default function Home() {
