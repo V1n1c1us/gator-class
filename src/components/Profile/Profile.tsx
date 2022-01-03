@@ -29,7 +29,9 @@ const Profile = ({
       <Style.Subtitle>{subTitle}</Style.Subtitle>
       <Style.Description>{description}</Style.Description>
 
-      <Button buttonTitle={buttonTitle} />
+      <Style.ButtonAdapter>
+        <Button buttonTitle={buttonTitle} />
+      </Style.ButtonAdapter>
     </Style.Container>
   );
 };

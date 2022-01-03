@@ -46,13 +46,3 @@ export const Description = styled.p`
 export const ButtonAdapter = styled.div`
   margin-bottom: 20px;
 `;
-
-export const Follow = styled.a`
-  ${({ theme }) => css`
-    background: ${theme.colors.blue};
-    border-radius: 5px;
-    color: ${theme.colors.gradient.primary};
-    margin-bottom: 20px;
-    padding: 10px;
-  `}
-`;
