@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 320px;
-  height: 414px;
+  height: auto;
   border: 1px solid rgb(158 146 163);
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(5px);
@@ -16,7 +16,7 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   height: 100%;
-  padding: 3p x;
+  padding: 3px;
 `;
 
 export const Header = styled.div`
@@ -25,4 +25,7 @@ export const Header = styled.div`
 
 export const Footer = styled.div`
   flex: 1;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 `;

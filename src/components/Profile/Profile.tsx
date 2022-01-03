@@ -2,10 +2,11 @@ import Lottie from 'react-lottie';
 import animationData from '../../../assets/images/89033-star-in-hand-baby-astronaut.json';
 import * as Style from './Profile.style';
 import { ProfileProps } from './Profile.types';
+import { Button } from '@src/components';
 
 const Profile = ({
   description = 'Default Description',
-  follow = 'Follow',
+  buttonTitle = 'Follow',
   subTitle = 'Default Subscription',
   title = 'Default Title',
 }: ProfileProps) => {
@@ -19,17 +20,16 @@ const Profile = ({
   };
   return (
     <Style.Container>
-      <Lottie options={defaultOptions} height={100} width={100} />
+      <Style.AvatarAdapter>
+        <Style.Avatar>
+          <Lottie options={defaultOptions} height={100} width={100} />
+        </Style.Avatar>
+      </Style.AvatarAdapter>
+      <Style.Title>{title}</Style.Title>
+      <Style.Subtitle>{subTitle}</Style.Subtitle>
+      <Style.Description>{description}</Style.Description>
 
-      <Style.Wrapper>
-        <Style.Title>{title}</Style.Title>
-        <Style.Subtitle>{subTitle}</Style.Subtitle>
-        <Style.Description>{description}</Style.Description>
-
-        <Style.ButtonAdapter>
-          <Style.Follow>{follow}</Style.Follow>
-        </Style.ButtonAdapter>
-      </Style.Wrapper>
+      <Button buttonTitle={buttonTitle} />
     </Style.Container>
   );
 };

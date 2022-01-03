@@ -6,8 +6,9 @@ export default {
   title: 'Components/Profile',
   component: Profile,
   argTypes: {
-    titile: {
+    title: {
       control: 'text',
+      defaultValue: 'Default',
     },
     subTitle: {
       control: 'text',

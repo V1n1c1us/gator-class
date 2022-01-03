@@ -9,6 +9,13 @@ const defaultTheme = {
   colors: {
     white: '#FFFFFF',
     secondary: '#ADA0B3',
+    gray: '#c7c7c7',
+    blue: '#f0f8ff',
+    techs: {
+      html5: '#DD4B26',
+      js: '#EFD81E',
+      react: '#5FD6F7',
+    },
     gradient: {
       primary: '#1b1a1c',
       secondary: '#371a45',

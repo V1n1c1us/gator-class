@@ -1,6 +1,5 @@
-export type ProfileProps = {
+export type CardProps = {
   description?: string;
-  buttonTitle?: string;
   subTitle?: string;
   title?: string;
 };
