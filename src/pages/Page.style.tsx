@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 
-export const Container = styled.div`
+const Container = styled.div`
   ${({ theme }) => css`
     display: flex;
     justify-content: center;
@@ -13,3 +13,9 @@ export const Container = styled.div`
     );
   `}
 `;
+
+const PageStyle = {
+  Container,
+};
+
+export default PageStyle;
