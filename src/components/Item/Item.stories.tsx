@@ -3,6 +3,7 @@ import { FaReact, FaHtml5, FaJsSquare, FaJenkins, FaJava, FaLaravel, FaNodeJs, F
 import { ItemProps, IconStorybook } from './Item.types';
 import { Item } from '@src/components';
 import themes from '@src/themes';
+
 const icons: IconStorybook = {
   FaHtml5,
   FaJava,

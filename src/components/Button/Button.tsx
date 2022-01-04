@@ -1,6 +1,9 @@
 import { ButtonProps } from './Button.types';
 import * as Style from './Button.style';
-
-const Button = ({ buttonTitle = 'Default title' }: ButtonProps) => <Style.Button>{buttonTitle}</Style.Button>;
+const Button = ({ buttonLabel = 'Default Label', bgColor, textColor }: ButtonProps) => (
+  <Style.Button bgColor={bgColor} textColor={textColor}>
+    {buttonLabel}
+  </Style.Button>
+);
 
 export default Button;

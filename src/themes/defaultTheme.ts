@@ -9,6 +9,7 @@ const defaultTheme = {
   colors: {
     white: '#FFFFFF',
     secondary: '#ADA0B3',
+    heart: '#F5185A',
     gray: '#c7c7c7',
     blue: '#f0f8ff',
     techs: {

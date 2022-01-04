@@ -1,6 +1,6 @@
 export type ProfileProps = {
   description?: string;
-  buttonTitle?: string;
+  buttonLabel?: string;
   subTitle?: string;
   title?: string;
 };

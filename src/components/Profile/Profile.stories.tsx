@@ -1,4 +1,5 @@
 import { Story } from '@storybook/react';
+
 import { ProfileProps } from './Profile.types';
 import { Profile } from '@src/components';
 
@@ -8,13 +9,19 @@ export default {
   argTypes: {
     title: {
       control: 'text',
-      defaultValue: 'Default',
+      defaultValue: 'Default Title',
     },
     subTitle: {
       control: 'text',
+      defaultValue: 'Default Subtitle',
     },
     description: {
       control: 'text',
+      defaultValue: 'Default Description',
+    },
+    buttonLabel: {
+      control: 'text',
+      defaultValue: 'Default Label',
     },
   },
 };

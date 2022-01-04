@@ -44,12 +44,14 @@ export const IconArrowLeft = styled(FaAngleLeft)`
 `;
 
 export const IconHeart = styled(FaRegHeart)`
-  transition: 0.3s;
-  &:hover {
-    display: inline-block;
-    animation: ${shake} 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
-    color: red;
-  }
+  ${({ theme }) => css`
+    transition: 0.3s;
+    &:hover {
+      display: inline-block;
+      animation: ${shake} 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+      color: ${theme.colors.heart}};
+    }
+  `}
 `;
 
 export const IconElipsiV = styled(FaEllipsisV)`
