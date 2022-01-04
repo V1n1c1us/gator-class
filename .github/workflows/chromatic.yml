@@ -17,5 +17,5 @@ jobs:
       - uses: chromaui/action@v1
         # Options required for Chromatic's GitHub Action
         with:
-          projectToken: ${{ process.env.CHROMATIC_PROJECT_TOKEN }}
-          token: ${{ process.env.GATOR_CLASS }}
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          token: ${{ secrets.GATOR_CLASS }}
