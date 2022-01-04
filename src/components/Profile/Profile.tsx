@@ -11,7 +11,7 @@ const Profile = ({
   description = 'Default Description',
   buttonLabel = 'Default Label',
   subTitle = 'Default Subscription',
-  title = 'Default Title',
+  title = 'Default title',
 }: ProfileProps) => {
   const [avatarRandom] = useState(Math.floor(Math.random() * (3 - 0 + 1) + 0));
 
