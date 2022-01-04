@@ -25,6 +25,7 @@ export const Title = styled.p`
   ${({ theme }) => css`
     color: ${theme.colors.white};
     margin-top: 10px;
+    font-weight: bold;
   `}
 `;
 
@@ -44,5 +45,6 @@ export const Description = styled.p`
 `;
 
 export const ButtonAdapter = styled.div`
-  margin-bottom: 20px;
+  margin: 0 auto;
+  width: 200px;
 `;

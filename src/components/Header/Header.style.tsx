@@ -1,4 +1,4 @@
-import { FaRegHeart } from 'react-icons/fa';
+import { FaRegHeart, FaAngleLeft, FaEllipsisV } from 'react-icons/fa';
 import styled, { css, keyframes } from 'styled-components';
 
 export const Container = styled.div`
@@ -34,10 +34,29 @@ const shake = keyframes`
   }
 `;
 
+export const IconArrowLeft = styled(FaAngleLeft)`
+  ${({ theme }) => css`
+    transition: 0.3s;
+    &:hover {
+      color: ${theme.colors.white};
+    }
+  `}
+`;
+
 export const IconHeart = styled(FaRegHeart)`
+  transition: 0.3s;
   &:hover {
     display: inline-block;
     animation: ${shake} 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
     color: red;
   }
+`;
+
+export const IconElipsiV = styled(FaEllipsisV)`
+  ${({ theme }) => css`
+    transition: 0.3s;
+    &:hover {
+      color: ${theme.colors.white};
+    }
+  `}
 `;
