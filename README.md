@@ -29,7 +29,7 @@
 
 ## :rocket: Technologies
 
-This project was developed live at [twitch.tv/lukemoralestv](https://www.twitch.tv/lukemoralestv) with the following technologies:
+This project was developed in Gator Class in the Hostgator Brasil with the following technologies:
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/)
