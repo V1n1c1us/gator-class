@@ -12,6 +12,9 @@ export const decorators = [
 ];
 
 export const parameters = {
+  backgrounds: {
+    default: 'dark',
+  },
   actions: {
     argTypesRegex: '^on[A-Z].*',
   },

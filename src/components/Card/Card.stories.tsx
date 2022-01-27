@@ -8,11 +8,15 @@ export default {
   argTypes: {
     description: {
       control: 'text',
-      defaultValue: 'Default',
+      defaultValue: 'Default description',
     },
     subTitle: {
       control: 'text',
-      defaultValue: 'Default',
+      defaultValue: 'Default Subtitle',
+    },
+    title: {
+      control: 'text',
+      defaultValue: 'Default title',
     },
   },
 };

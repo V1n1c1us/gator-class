@@ -13,7 +13,7 @@ export default {
     },
     textColor: {
       control: 'color',
-      defaultValue: `${themes.colors.secondary}`,
+      defaultValue: `${themes.colors.white}`,
     },
     bgColor: {
       control: 'color',
