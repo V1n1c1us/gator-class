@@ -30,7 +30,7 @@ class NextDocument extends Document {
     return (
       <Html>
         <Head>
-          <title>Tempate</title>
+          <title>Gator Class - Storybook</title>
         </Head>
         <body>
           <Main />
