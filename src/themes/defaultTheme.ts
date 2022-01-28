@@ -31,8 +31,7 @@ const defaultTheme = {
       md: '16px',
       lg: '18px',
       xl: '22px',
-      xxl: '26px',
-      xxxl: '28px',
+      xxl: '28px',
     },
     weights: {
       regular: 400,

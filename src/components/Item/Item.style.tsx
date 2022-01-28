@@ -23,7 +23,7 @@ export const Followers = styled.span`
 export const IconAdapter = styled.div<ItemProps>`
   ${({ theme, hoverColor, color }) => css`
     margin-bottom: 5px;
-    font-size: 28px;
+    font-size: ${theme.font.sizes.xxl};
     transition: 0.3s;
     color: ${color ? color : theme.colors.white};
 
@@ -34,5 +34,7 @@ export const IconAdapter = styled.div<ItemProps>`
 `;
 
 export const Title = styled.p`
-  font-size: 16px;
+  ${({ theme }) => css`
+    font-size: ${theme.font.sizes.md};
+  `}
 `;
